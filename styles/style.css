@@ -120,3 +120,45 @@
 .aligned-text_right {
     text-align: right;
 }
+
+.cover__description {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.cover__description-text {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 20px;
+}
+
+.bet-button {
+    justify-self: end;
+    width: 256px;
+    height: 51px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.bet-button:hover {
+    transform: scale(1.05);
+}
+
+.bet-button:active {
+    opacity: 0.5;
+    transform: scale(0.98);
+}
