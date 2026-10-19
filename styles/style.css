@@ -1,1 +1,73 @@
-/* код */
+/* ==================== HEADER ==================== */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
+}
+
+.header__menu {
+    justify-self: start;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+    padding-left: 0;
+}
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+
+.header__link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    justify-self: center;
+}
+
+.header__logo-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.address {
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.address__link {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.address__text {
+    display: inline-block;
+}
+
+.header__address {
+    justify-self: end;
+    max-width: 240px;
+}
