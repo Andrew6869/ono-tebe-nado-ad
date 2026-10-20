@@ -305,6 +305,7 @@
 .about__logo-image {
     width: 140px;
     height: auto;
+    display: block;
 }
 
 .about__column_text {
@@ -342,7 +343,7 @@
 .footer__address {
     justify-self: start;
     text-align: left;
-    max-width: 260px
+    max-width: 260px;
 }
 
 .footer__menu-list {
