@@ -1,3 +1,4 @@
+/* ==================== Fonts ==================== */
 @font-face {
     font-family: 'Raleway';
     src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
@@ -16,7 +17,7 @@
     font-display: swap;
 }
 
-/* ==================== Header==================== */
+/* ==================== Header ==================== */
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -251,7 +252,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 26.4px; /* Точное значение из Figma */
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -263,6 +264,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+    max-width: 334px; /* Жестко фиксируем ширину, чтобы текст не разъезжался */
 }
 
 .lots__look-more-link {
@@ -303,7 +305,7 @@
 }
 
 .about__logo-image {
-    width: 140px;
+    width: 120px; /* Точный размер логотипа из Figma */
     height: auto;
     display: block;
 }
