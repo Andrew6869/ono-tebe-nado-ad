@@ -252,7 +252,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26.4px; /* Точное значение из Figma */
+    line-height: 26.4px;
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -264,7 +264,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    max-width: 334px; /* Жестко фиксируем ширину, чтобы текст не разъезжался */
+    max-width: 334px;
 }
 
 .lots__look-more-link {
@@ -302,11 +302,15 @@
     border-radius: 50%;
     background-color: #000000;
     margin-top: 35px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Жестко фиксируем логотип внутри круга, чтобы он не уезжал */
 .about__logo-image {
-    width: 120px; /* Точный размер логотипа из Figma */
-    height: auto;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
     display: block;
 }
 
